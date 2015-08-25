@@ -9,11 +9,14 @@
         }
     ],
     "require": {
-        "illuminate/database": "^5.1"
+        "illuminate/database": "^5.1",
+        "twig/twig": "~1.0"
     },
     "autoload" : {
         "classmap" : [
-            "app/models"
-        ]
+        ],
+        "psr-4": {
+            "Models\\" : "app/models"
+        }
     }
 }

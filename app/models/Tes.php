@@ -1,4 +1,4 @@
-<?php
+<?php namespace Models;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class Tes extends Eloquent {
